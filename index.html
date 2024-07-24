@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//1)Array maximum ...
+let array3=[10,20,30,60,50];
+let max=Math.max(...array3);
+console.log(max);
+//Array minimum...
+let mini=[20,30,10,40];
+let min=Math.min(...mini);
+console.log(min);
+
+//2)Flattening Array...
+let  arr=[1,2,[3,4,5]];               //Concatenated with all sub array..........
+console.log(arr.flat());
+
+//3)Checking Array elements...
+let fruits=['Apple',"Orange",'PineApple'];
+let fruit=fruits.includes('Apple');
+console.log(fruit);
+    </script>
+</body>
+</html>
